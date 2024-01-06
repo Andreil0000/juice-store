@@ -1,0 +1,163 @@
+/* .apelsin  */
+.apelsin {
+   transform: scale(1);
+   transition: .5s;
+   animation-name:myAnimation;
+   animation-duration: 5s;
+   animation-timing-function: linear;
+   animation-iteration-count:infinite;
+   animation-direction: alternate-reverse;
+}
+.apelsin:hover{
+ animation-play-state:paused;
+}
+@keyframes myAnimation {
+   from{
+      transform: scale(1);
+    
+   }
+   50%{
+      transform: scale(1.5);
+  
+   }
+   to{
+      transform: scale(1);
+     
+   }
+} 
+/* .img2_wrap,.img2 */
+.img2_wrap,.img2{
+   transform: scale(1);
+   transition: .5s;
+   animation-name:myAnimation1;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-iteration-count:infinite;
+   animation-direction: alternate-reverse;
+}
+.apelsin:hover{
+ animation-play-state:paused;
+}
+@keyframes myAnimation1 {
+   from{
+      transform: scale(1.);
+    
+   }
+   50%{
+      transform: scale(1.1);
+  
+   }
+   to{
+      transform: scale(1);
+   }
+} 
+/* кнопка */
+.button_bg_articail{
+   transform: scale(1);
+   transition: .5s;
+   animation-name:myAnimation3;
+   animation-duration: 5s;
+   animation-timing-function: linear;
+   animation-iteration-count:infinite;
+   animation-direction: alternate-reverse;
+}
+.bg_articail:hover{
+ animation-play-state:paused;
+}
+@keyframes myAnimation3 {
+   from{
+      transform: scale(1.);
+    
+   }
+   50%{
+      background: #A81D60;
+      color:azure;
+   }
+   to{
+      transform: scale(1);
+   }
+} 
+
+
+/* текст */
+.title_brown {
+   transform: scale(1);
+   transition: .5s;
+   color: #171F26;
+   animation-name:myAnimation4;
+   animation-duration: 5s;
+   animation-timing-function: linear;
+   animation-iteration-count:infinite;
+   animation-direction: alternate-reverse;
+}
+.title_brown:hover {
+ animation-play-state:paused;
+}
+@keyframes myAnimation4{
+   from{
+      color: #171F26;
+   }
+   50%{
+      color: #664B00;
+   }
+   to{
+      color: #171F26;
+   }
+} 
+/* icon*/
+svg{
+   transform: scale(1);
+   transition: .3s;
+   animation-name:myAnimation6;
+   animation-duration: 2s;
+   animation-timing-function: linear;
+   animation-iteration-count:infinite;
+   animation-direction: alternate-reverse;
+
+}
+svg:hover {
+   animation-play-state:paused;
+  }
+  @keyframes myAnimation6{
+   from{
+      transform: scale(1);
+   }
+   50%{
+      transform: scale(1.3);
+   }
+   to{
+      transform: scale(1);
+   }
+} 
+@media(max-width: 1024px){
+   @keyframes myAnimation {
+      from{
+         transform: scale(1);
+       
+      }
+      50%{
+         transform: scale(1.2);
+     
+      }
+      to{
+         transform: scale(1);
+        
+      }
+   } 
+}
+@media(max-width: 590px){
+   @keyframes myAnimation {
+      from{
+         transform: scale(1);
+       
+      }
+      50%{
+         transform: scale(1.3);
+     
+      }
+      to{
+         transform: scale(1);
+        
+      }
+   } 
+}
