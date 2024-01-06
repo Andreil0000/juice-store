@@ -292,24 +292,36 @@ background-image: url(../img/main1.png);
 width: 100%;
 height: 331px;
 border-radius: 15px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 .main_img1{
 background-image: url(../img/main4.png);
 width: 100%;
 height: 331px;
 border-radius: 15px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 .main_img2{
 background-image: url(../img/main2.png);
 width: 100%;
 height: 331px;
 border-radius: 15px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 .main_img3{
 background-image: url(../img/main3.png);
 width: 100%;
 height: 331px;
 border-radius: 15px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 .row{
 display: flex;
@@ -1153,25 +1165,25 @@ height: 600px;
    background-image: url(../img/mobail_img1.png);
    width: 151px;
    height: 210px;
-   margin:0 auto
+   margin: 0 auto;
 }
 .main_img1{
    background-image: url(../img/mobail_img2.png);
    width: 151px;
    height: 210px;
-   margin:0 auto
+   margin: 0 auto;
 }
 .main_img2{
    background-image: url(../img/mobail_img3.png);
    width: 151px;
    height: 210px;
-   margin:0 auto
+   margin: 0 auto;
 }
 .main_img3{
    background-image: url(../img/mobail_img4.png);
    width: 151px;
    height: 210px;
-   margin:0 auto
+   margin: 0 auto;
 }
 h4 {
    width: 96px;
