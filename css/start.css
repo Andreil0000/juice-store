@@ -620,7 +620,7 @@ h4 {
 }
 .title_brown {
    font-size: clamp(18px,4vw,24px);
-   width: 519px;
+   max-width: 100%;
 }
 .text_wrap {
    font-size: clamp(12px,3vw,13px);
@@ -639,7 +639,6 @@ h4 {
 }
 .title {
    font-size: clamp(28px,5vw,41px);
-   width: 519px;
 }
 .articail_title_white {
    font-size: clamp(18px,5vw,26px);
@@ -672,10 +671,10 @@ h4 {
       max-width: 768px;
   }
   .section_wrap {
-   padding: 116px 0;
+   padding: 0px 0;
 }
 .section_wrap_yellow {
-   margin-top: 0px;
+   margin-top:120px;
    padding: 73px 0px 84px 0px;
 }
 .title_brown {
@@ -695,7 +694,7 @@ h4 {
 }
 .wrapper {
    flex-direction: column;
-   gap: 126px;
+   gap: 60px;
    height: 1042px;
 }
 .main_grid {
@@ -715,7 +714,6 @@ h4 {
 }
 .title {
    font-size: clamp(28px,7vw,47px);
-   width: 595px;
    margin-bottom: 25px;
 }
 .text {
@@ -778,7 +776,6 @@ h4 {
 }
 .articail_row {
    gap: 11px;
-   height: 363px;
 }
 .articail_title_white {
    font-size: clamp(18px,3vw,18px);
@@ -856,8 +853,8 @@ h4 {
 }
 .title {
    font-size: clamp(28px,6vw,45px);
-   width: 595px;
    margin-bottom: 25px;
+   max-width: 62%;
 }
 .title_brown {
    font-size: clamp(18px,4vw,25px);
@@ -934,7 +931,6 @@ h4 {
 }
 .articail_row {
    gap: 10px;
-   height: 280px;
 }
 .button_bg_articail {
    margin-top: 10px;
@@ -963,11 +959,17 @@ h6 {
    margin-left: -17px;
    margin-top: -20px;
 }
+footer {
+   margin-top: -120px;
+}
 }
 @media(max-width: 590px) {
    .container {
       max-width:400px;
   }
+  footer {
+   margin-top: -61px;
+}
   .header {
    gap: 54px;
 }
@@ -1000,14 +1002,10 @@ h6 {
    width: 361px;
 }
 .wrapper {
-   gap: 42px;
+   gap: 0px;
    height: 871px;
 }
-.section_wrap {
-   padding: 27px 0;
-}
 .title {
-   width: 356px;
    margin-bottom: 39px;
 }
 .main_img {
@@ -1073,13 +1071,13 @@ h2 {
    margin-bottom: 40px;
 }
 .section_wrap_yellow {
-   margin-top: 38px;
+   margin-top:60px;
    padding: 37px 0px 84px 0px;
 }
 .articail_row {
 flex-direction: column;
 gap: 20px;
-height: 650px;
+height: 600px;
 }
 .articail_row_main, .articail_row_main_orange {
    padding: 0px 30px 10px;
@@ -1130,13 +1128,11 @@ height: 650px;
 }
   .title {
    font-size: clamp(26px,7vw,41px);
-   width: 340px;
    margin-bottom: 20px;
 }
 .text {
    font-size: clamp(13px,3vw,20px);
    color: #444A4E;
-   width: 340px;
    margin-bottom: 20px;
 }
 .img1 {
@@ -1183,11 +1179,7 @@ h4 {
 .row_col {
    margin: -4px 0px;
 }
-.section_wrap {
-   padding: 0px 0;
-}
 .section_wrap_yellow {
-   margin-top: 40px;
    padding: 37px 0px 84px 0px;
 }
 .title_brown {
